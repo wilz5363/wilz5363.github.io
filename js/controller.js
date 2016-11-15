@@ -44,7 +44,7 @@ app.controller('experienceController', function ($scope) {
             'Title': 'Mentor for Basic Android Application Workshop (Faculty)',
             'Date': '25 March 2016',
             'Desc': 'Provide simple stepping stone workshop for students in learning making first Android application.'
-        }
+        },
     ]
 });
 

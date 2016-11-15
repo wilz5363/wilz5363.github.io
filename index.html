@@ -66,7 +66,7 @@
         <h1 class="page-header">Experience</h1>
         <div class="row">
             <div ng-repeat="exp in experieces">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">{{exp.Title}}
@@ -74,7 +74,7 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            {{exp.Desc}}
+                            <p>{{exp.Desc}}</p>
                         </div>
                     </div>
                 </div>
@@ -92,10 +92,10 @@
                             <h3 class="panel-title">{{achi.Title}}</h3>
                         </div>
                         <div class="panel-body">
-                            {{achi.Desc}}
+                           <p>{{achi.Desc}}</p>
                         </div>
                         <div class="panel-footer">
-                            {{achi.TechUsed}}
+                            <p>{{achi.TechUsed}}</p>
                         </div>
                     </div>
                 </div>
