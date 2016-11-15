@@ -1,0 +1,14 @@
+html{
+    background-color: black;
+}
+body{
+    position: relative;
+}
+#imgProf{
+    height: 350px;
+    width: 305px;
+
+}
+.social {
+    font-size: 36px;
+}
