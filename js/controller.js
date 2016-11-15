@@ -11,8 +11,8 @@ app.controller('aboutMeController', function ($scope) {
         'Name': 'Chan Wilson',
         'Age': '23 (2016)',
         'Education': 'BSc. (Hons) Computer Science (Database Management)',
-        'University': 'Universiti Teknikal Malaysia Melaka (UTeM)',
-        'Origin': 'Penang (Currently in PJ) (Sept, 2017)',
+        'University': 'Universiti Teknikal Malaysia Melaka (UTeM)(Sept, 2017)',
+        'Origin': 'Penang (Currently in PJ)',
         'Email': 'chanwilson1993@gmail.com',
         'CodeName': 'Wilz5363 / wilz5363'
     };
