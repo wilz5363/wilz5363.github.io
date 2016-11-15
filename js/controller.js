@@ -21,6 +21,11 @@ app.controller('aboutMeController', function ($scope) {
 app.controller('experienceController', function ($scope) {
     $scope.experieces = [
         {
+            'Title': 'RiteKit Internship (Czech Republic)',
+            'Date': 'December, 2016 - Feb, 2017',
+            'Desc': 'Remote internship as a Backend Developer.'
+        },
+        {
             'Title': 'HPE Internship',
             'Date': 'Sept, 2016 - Feb, 2017',
             'Desc': 'Internship as a Application Developer and Global Database Administrator (GDBA).'
