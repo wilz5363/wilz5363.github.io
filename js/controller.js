@@ -73,3 +73,20 @@ app.controller('achievementController', function ($scope) {
 
     ]
 });
+
+app.controller('skillController', function ($scope) {
+    $scope.skills = [
+        {
+            'Programming Languages': 'Java, C#, ASP, PHP, Javascript, SQL, PL/SQL, HTML5/CSS'
+        },
+        {
+            'Frameworks': 'Twitter Bootstrap, Foundation, Semantic UI, Material Design, MVC, .Net, Laravel, Nette, AngularJS (1), '
+        },
+        {
+            'Database': 'Oracle, MySQL, PostgreSQL, MSSQL, Mongo'
+        },
+        {
+            'Others': 'Git, Android, Xamarin'
+        }
+    ]
+});
